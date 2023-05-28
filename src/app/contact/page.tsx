@@ -12,8 +12,8 @@ const ContactUs = () => {
           Whether you're working on a residential, commercial, or industrial
           project, we've got you covered. From precise installations to
           efficient servicing, we ensure the highest quality standards. Contact
-          us today to discover how Corbin Mechanicals can bring your
-          construction project to the next level.
+          us today to discover how Pro build can bring your construction project
+          to the next level.
         </p>
         <div className=""></div>
       </main>
@@ -111,7 +111,7 @@ const ContactUs = () => {
           <p className="text-xs">
             In case you encounter any difficulties submitting an inquiry through
             the form, please don't hesitate to reach out to us via email at
-            Corbinmechanicals401@gmail.com.
+            jacket@probuildcon.com
           </p>
         </div>
         <div className="hidden md:flex md:w-[40%]">
@@ -124,7 +124,7 @@ const ContactUs = () => {
       </div>
       <div className="py-[4em] bg-black text-white px-4 text-xs font-bold text-center md:text-2xl">
         <h1 className="">
-          When Plumbing Excellence Matters... Corbin Mechanicals!
+          When Construction Excellence Matters... Probuil construction!
         </h1>
       </div>
     </div>

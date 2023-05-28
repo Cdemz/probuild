@@ -75,7 +75,7 @@ const Experience = () => {
               alt="house"
               width={300}
               height={300}
-              className="  h-[14rem]w-full object-cover"
+              className="  h-[14rem] w-full object-cover"
             />
             <h1 className="text-[var(--color-primary)] font-bold">
               Residential Plumbing
