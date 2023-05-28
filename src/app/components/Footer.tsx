@@ -18,20 +18,22 @@ const Footer: FC = () => {
         {/* menu  */}
         <div className="">
           <ul className=" gap-4 cursor-pointer">
-            <li>
-              <a href="">Home</a>
-            </li>
+            <Link href="/">
+              <li>
+                <a href="">Home</a>
+              </li>
+            </Link>
             <li>
               <a href="">Services</a>
             </li>
             <li>
-              <a href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA==">
+              <a href="https://instagram.com/probuildconllc?igshid=MzRlODBiNWFlZA==">
                 Projects
               </a>
             </li>
             <li>
               <a
-                href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA=="
+                href="https://instagram.com/probuildconllc?igshid=MzRlODBiNWFlZA=="
                 target="_blank"
               >
                 Blog
@@ -51,34 +53,34 @@ const Footer: FC = () => {
             To be Updated
           </p>
           <p className="flex items-center gap-2">
-            <IoIosCall className="text-[var(--color-primary)]" size={26} /> +to
-            be updated
+            <IoIosCall className="text-[var(--color-primary)]" size={26} />{" "}
+            +1(860) 707-3762
           </p>
           <p className="flex items-center gap-2">
             <HiMailOpen className="text-[var(--color-primary)]" size={26} />{" "}
-            corbinmechanical@gmail.com
+            probuildconllc@gmail.com
           </p>
           <p className="flex items-center gap-2">
             <AiFillInstagram
               className="text-[var(--color-primary)]"
               size={26}
             />
-            corbinmechanicalllc
+            probuildconllc
           </p>
         </div>
       </div>
       {/* second big div  */}
       <div className="text-[var(--color-text)] justify-start  ">
         <hr className="my-2" />
-        <p>© 2023 CORBIN MECHANICAL, All Rights Reserved.</p>
+        <p>© 2023 PROBUILD CONSTRUCTION, All Rights Reserved.</p>
         <p className="text-gray-300">
-          We connect you with professional plumbing contractors in your area.
-          Please note that Corbin Mechanical does not directly own or operate
-          any plumbing services. It is the responsibility of each customer to
-          verify that the service provider they are connected with meets all
-          necessary licensing and insurance requirements as per their state
-          regulations. The images shown are for illustrative purposes only and
-          may not represent the plumbing services available in your specific
+          We connect you with professional building contractors in your area.
+          Please note that Probuild Construction does not directly own or
+          operate any plumbing services. It is the responsibility of each
+          customer to verify that the service provider they are connected with
+          meets all necessary licensing and insurance requirements as per their
+          state regulations. The images shown are for illustrative purposes only
+          and may not represent the plumbing services available in your specific
           region.
         </p>
       </div>
